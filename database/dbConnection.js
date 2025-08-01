@@ -11,3 +11,5 @@ function dbConnection() {
       throw new AppError(err.message, 500);
     });
 }
+
+export default dbConnection;
